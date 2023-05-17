@@ -1,0 +1,11 @@
+Store in image in files system and send that path to dB
+1.Here We are going to store image/file in file system and then send the file path to the dB
+2.Files which are needs to accessed quickly, frequently.
+3.this approach is less secure.
+
+services layer
+29//so file name,type,path is going to be stored in dB but not Image.
+30// file details n image to be transferred/stored to the folder n filepath mentioned
+
+controller layer
+24// Rest controller doesn't direct us to frontend html
